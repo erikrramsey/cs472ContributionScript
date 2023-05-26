@@ -3,7 +3,7 @@ import requests
 import json
 
 # Fake tokens. Generate your own and replace these
-token_list = ["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"]
+token_list = ["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"]
 # Sample repository. Replace it with your own repository
 reponame = "CivBuilder/Carbon"
 ct = 0
@@ -25,6 +25,13 @@ ignored_file_extensions = [
 @token_list a list of GitHub tokens
 @ct token counter
 """
+
+"""
+@url Github API URL for extracting the
+@token_list a list of GitHub tokens
+@ct token counter
+"""
+
 
 def get_response(url, token_list, ct):
     jsonData = None
